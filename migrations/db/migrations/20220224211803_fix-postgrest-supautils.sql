@@ -14,7 +14,7 @@ BEGIN
 
   IF supautils_exists
   THEN
-  ALTER ROLE authenticator SET session_preload_libraries = supautils, safeupdate;
+  -- ALTER ROLE authenticator SET session_preload_libraries = supautils, safeupdate;
   END IF;
 END $$;
 
